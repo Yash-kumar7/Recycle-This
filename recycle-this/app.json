@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "recycle-this",
+    "slug": "recycle-this",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow Recycle This to access your phone.",
+          "speechRecognitionPermission": "Allow Recycle this to securely recognize user speech."
+        }
+      ]
+    ],
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyDy6DQJ1lr29xJPQ0DgagixGE5Tim5eJ90"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
